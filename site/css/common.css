@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+body{
+    background-color: #000;
+}
+header{
+    height:100px;
+    line-height: 100px;
+    font-size: 2rem;
+    padding-left: 50px;
+}
+header h1{
+    font-size: 2rem;
+    color: #fff;
+}
+nav{}
+nav ul{
+    display: flex;
+    background-color: #222;
+}
+nav ul li{
+    width: auto;
+    padding:20px 0;
+    margin: 0 auto;
+    background-color: #444;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ccc;
+    padding: 16px 30px;
+
+}
+nav ul li a:hover{
+    background-color: #333;
+    color: #999;
+}
+nav ul li a:active{
+}
+footer{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+
+
+

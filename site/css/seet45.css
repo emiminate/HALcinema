@@ -1,0 +1,208 @@
+body {
+    background-color: #eee;
+}
+
+.g_info_title {
+    margin: 5% 0 0 25%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.e-container {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+
+
+.e-image {
+    margin: 40px;
+    margin-right: 20%;
+}
+
+.e-image img {
+    width: 20vw;
+    height: auto;
+}
+
+
+
+.e-info {
+    margin-top: 40px;
+    background-color: #ccc;
+    margin: 60px 0 20px 0;
+    padding: 20px;
+    height: 50%;
+}
+
+
+
+.eiga_title {
+    padding: 2px;
+    border: 1px solid #000;
+    background-color: #333;
+    color: #eee;
+}
+
+.eiga_title h1 {
+    margin: 5px 0 0 10px;
+}
+
+
+
+.ex {}
+
+.ex p {}
+
+
+
+.dir_info {}
+
+.dir {
+    background-color: #333;
+    color: #eee;
+    padding: 0 90px;
+}
+
+.dir h2 {
+    text-align: center;
+}
+
+.dir_name {}
+
+.dir_name p {}
+
+
+.cv_info {}
+
+.cv {
+    background-color: #333;
+    color: #eee;
+    padding: 0 90px;
+}
+
+.cv h2 {
+    text-align: center;
+}
+
+.cv_name {}
+
+.cv_name p {}
+
+
+
+.i_container {
+    margin: 70px 0 0 5%;
+    display: flex;
+}
+
+.seet_name {
+    text-align: center;
+    background-color: #999;
+}
+
+.seet_number p {
+    width: 15px;
+    text-align: center;
+}
+
+
+
+.e_time {
+    margin: 0 0 0 40px;
+}
+
+
+.s_container {
+    background-color: #333;
+    margin: 0 0 0 15%;
+}
+
+.seets {
+    margin: 10px 1px;
+    border-radius: 20%;
+    background-color: #eee;
+}
+
+.seets:hover {
+    background-color: #999;
+}
+
+.seet_number {
+    margin: 0 10px 0 0;
+    line-height: 25px;
+    color: #eee;
+}
+
+/* 選択している座席の色を変えている */
+#seetA-2 {
+    background-color: #999;
+}
+
+.seet {
+    display: flex;
+}
+
+
+.seet_left {
+    display: flex;
+    margin: 0 0 0 30px;
+
+}
+
+.seet_center {
+    display: flex;
+    margin: 0 10px;
+}
+
+.seet_right {
+    display: flex;
+    margin: 0 30px 0 0;
+}
+
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+
+.return {}
+
+.return a:active {
+    color: #ccc;
+    box-shadow: 5px 5px 10px #fffd, -5px -5px 10px #0004;
+
+}
+
+.return a {
+    padding: 15px 30px;
+    color: #000;
+    text-decoration: none;
+    background-color: #999;
+    border-radius: 5px;
+    box-shadow: -5px -5px 10px #fffd, 5px 5px 10px #0004;
+}
+
+.move {}
+
+
+.move a {
+    padding: 15px 30px;
+    color: #000;
+    text-decoration: none;
+    background-color: #999;
+    border-radius: 5px;
+    box-shadow: -5px -5px 10px #fffd, 5px 5px 10px #0004;
+
+}
+
+.move a:active {
+    color: #ccc;
+    box-shadow: 5px 5px 10px #fffd, -5px -5px 10px #0004;
+
+}

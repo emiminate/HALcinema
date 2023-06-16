@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>cinema</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Halcinema</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="top.html">ホーム</a>
+            </li>
+            <li>
+                <a href="zyouei.html">上映スケジュール</a>
+            </li>
+            <li>
+                <a href="theater.html">劇場案内</a>
+            </li>
+            <li>
+                <a href="#">会員情報</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="main-container">
+            <div class="form">
+
+                <div class="container" id="container">
+                    <div class="form-container sign-up-container">
+                        <form action="#">
+                            <h2>新規登録</h2>
+                            <input type="text" placeholder="Name" />
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="Password" />
+                            <button>Sign Up</button>
+                        </form>
+                    </div>
+                    <div class="form-container sign-in-container">
+                        <form action="member.html">
+                            <h2>ログイン</h2>
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="Password" />
+                            <button onclick="location.href='member.html'">Sign In</button>
+                        </form>
+                    </div>
+                    <div class="overlay-container">
+                        <div class="overlay">
+                            <div class="overlay-panel overlay-left">
+                                <h2>ログインはこちら</h2>
+                                <button class="ghost" id="signIn">Sign In</button>
+                            </div>
+                            <div class="overlay-panel overlay-right">
+                                <h2>新規登録はこちら</h2>
+                                <button class="ghost" id="signUp">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="js/login.js"></script>
+                </div>
+
+            </div>
+
+            <div class="movie-container">
+                <div class="movie-now">
+                    <a href="movie-list.html" class="movie-list">&gt;上映中の映画</a>
+                </div>
+                <div class="movie-coming">
+                    <a href="coming-soon.html" class="movie-list">&gt;公開予定の映画</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+
+    <footer>footer</footer>
+
+
+</body>
+
+</html>

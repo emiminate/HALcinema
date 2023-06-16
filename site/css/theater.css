@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+div.a{
+    height: 30px;
+}
+main {
+    background-color: #fff;
+}
+
+/* ページ内リンク部分-料金 */
+
+main  ul.link-top1 {
+    padding-left: 0;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding-top: 15px;
+}
+main  ul.link-top1 li{
+    list-style-type: none;
+    width: auto;
+    width: 200px;
+
+}
+main ul.link-top1 li.link1{
+    background-color: #fff;
+}
+main ul.link-top1 li.link1 a{
+    color: #000;
+}
+main ul.link-top1 li a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+main ul.link-top1 li.link2 a:hover{
+    background-color: #888;
+}
+
+/* ページ内リンク部分-アクセス */
+
+main  ul.link-top2 {
+    padding-left: 0;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding-top: 15px;
+}
+main  ul.link-top2 li{
+    list-style-type: none;
+    width: auto;
+    width: 200px;
+
+}
+main ul.link-top2 li.link2{
+    background-color: #fff;
+}
+main ul.link-top2 li.link2 a{
+    color: #000;
+}
+main ul.link-top2 li a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+main ul.link-top2 li.link1 a:hover{
+    background-color: #888;
+}
+
+
+
+
+
+main section{
+    padding: 50px 30px;
+    margin: 50px 0 100px 0;
+}
+
+
+
+/* 料金部分 */
+
+main section div.price{
+    margin: 0 auto ; 
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+}
+main section div.price h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom:50px ;
+}
+main section div.price h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+main section div.price ul{
+    width: auto;
+}
+main section div.price ul li{
+    display:flex;
+    justify-content: space-between;
+}
+
+main section div.price ul li p{
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+}
+main section div.price ul li p.a ,p.b{
+    display: inline-block;
+}
+main section div.price ul li p.b{
+    font-size:1.3rem;
+    text-align: left;
+}
+main section div.price ul li p.c{
+    font-size: 1.6rem;
+    text-align: right;
+}
+main section div.price ul.price1{
+    background-color: #aaa;
+}
+
+main section div.price ul.price2{
+    background-color: #fff;
+}
+
+
+/* アクセス部分 */
+
+main section div.access{
+    margin: 0 auto ; 
+    width: 800px;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+main section div.access h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom:50px;
+}
+
+
+.access-list-ul{
+    margin-top: 30px ;
+}
+.access-list-li{
+    list-style: none;
+    border-top: 2px dotted #aaa;
+}
+.access-list-li:last-child{
+    border-bottom: 2px dotted #aaa;
+}
+.access-item-ul{
+    display: flex;
+}
+li.access-item-li-1{
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+    width: 120px;
+}
+li.access-item-li-2{
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    list-style: none;
+}

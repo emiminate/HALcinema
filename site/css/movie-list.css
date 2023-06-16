@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+.a{
+    height: 30px;
+}
+
+main{
+    background-color: #fff;
+    padding-bottom: 100px;
+    
+}
+main  ul.link-top1 {
+    padding-left: 0;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+main  ul.link-top1 li{
+    list-style-type: none;
+    width: auto;
+    width: 250px;
+
+}
+main ul.link-top1 li.link1{
+    background-color: #fff;
+}
+main ul.link-top1 li.link1 a{
+    color: #000;
+}
+main ul.link-top1 li a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+main ul.link-top1 li.link2 a:hover{
+    background-color: #888;
+}
+
+main h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.movie-list{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+    right: 100px;
+
+
+}
+.movie-item{
+    display: flex;
+    margin-top: 80px;
+}
+.movie-item ul{
+    display: flex;
+    background-color: #333;
+    list-style: none;
+    margin-right: 100px;
+    padding: 20px;
+    
+}
+.movie-item ul li{
+    width: 225px;
+    height: 300px;
+    color: #fff;
+    margin-left: 20px;
+    
+
+}
+.movie-item ul li a{}
+.movie-item ul li a img{
+    width: 100%;
+    height: 100%;
+}
+
+.tit{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.movie-item ul li p{
+    font-size: 1.2rem;
+}
+.time{
+    position: relative;
+    left: 160px;
+}
+.explanation{
+    margin-top: 30px;
+}

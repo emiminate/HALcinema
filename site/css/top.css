@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+
+body {
+    background-color: #333;
+}
+
+header {
+    background-color: #000;
+}
+
+header h1 {
+    color: #fff;
+}
+
+main {}
+
+main div.p {
+    height: 30px;
+    background-color: #000;
+
+}
+
+main div.slide {
+    background-color: #555;
+}
+
+section {
+    padding-top: 100px;
+    background-color: #111;
+}
+
+section div.p {
+    height: 150px;
+    background-color: #000;
+}
+
+.list--1 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.list__list {
+    margin: 0 auto;
+}
+
+.list1 {
+    margin-right: -400px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.list__list {}
+
+.list__list .list1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px dotted #000;
+    border-radius: 10px;
+    transition: transform 80ms ease-in;
+}
+
+.list__list .list1 a:active {
+    transform: scale(0.95);
+
+}
+
+
+.list__list .list1 a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.movie-now {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/back.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.movie-coming {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/back3.png");
+    background-size: cover;
+
+    border-radius: 10px;
+}
+
+.list2 {
+
+    height: 650px;
+    width: 500px;
+    background-color: #fff;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+.list2 h2 {
+    color: #000;
+    text-align: left;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.news {
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.news:hover {
+    font-weight: bold;
+}
+
+.days {
+    text-align: right;
+    border-bottom: 1px dotted #333;
+    position: relative;
+    bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.days:last-child {
+    border-bottom: none;
+}
+
+.more {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.more:hover {
+    font-weight: bold;
+}

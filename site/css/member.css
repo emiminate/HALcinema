@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+
+main{
+    background-color: #666;
+}
+.main-container{
+    margin: 30px 5%;
+    padding:70px 0;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+}
+
+
+.member-container{
+    width: 600px;
+    height: 658px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.member-container h2{
+    font-size: 1.8rem;
+    margin: 20px 0 50px 50px;
+}
+.Purchased-ticket{
+    font-size: 1.2rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.tit{
+    font-size: 1.6rem;
+    margin-left: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.screen{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+.days{
+    text-align: right;
+    margin: 0 40px 50px 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #333;
+    font-weight: bold;
+    color: #666;
+}
+.days:last-child{}
+
+
+
+
+.movie-container{
+    margin: 0 0 0 150px;
+}
+
+.movie-now{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/back.png");
+    background-size: cover;
+    border: 2px solid #222;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.movie-coming{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/back3.png");
+    background-size: cover;
+    border: 2px solid #222;
+    border-radius: 10px;
+}
+.movie-now a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px dotted #000 ;
+    border-radius: 10px;
+    transition: transform 80ms ease-in;
+}
+.movie-coming a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px dotted #000 ;
+    border-radius: 10px;
+    transition: transform 80ms ease-in;
+}
+
+
+.movie-now a:hover{
+    background-color: #333;
+    color: #fff;
+}
+.movie-now a:active{
+    transform: scale(0.95);
+}
+
+.movie-coming a:hover{
+    background-color: #333;
+    color: #fff;
+    transform: scale(0.95);
+}
